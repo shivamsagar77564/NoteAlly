@@ -81,4 +81,4 @@ https://note-ally-6jq5.vercel.app/
 ## 📧 Contact
 
 Created by **Shivam**  
-📩 Email: kumarshivam63834@gmail.com
+📩 Email: shivamsagar77564@gmail.com
