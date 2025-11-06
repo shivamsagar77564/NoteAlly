@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-color: #1B7280;   /* Rich teal with depth */
+  --primary-dark: #14525C;    /* Deep teal for hover/focus */
+  --accent: #F2A541;          /* Vibrant golden-orange accent */
+  --bg-color: #C9D6CF;        /* Soft sage-gray background (easy on eyes) */
+  --text-color: #1A1A1A;      /* Neutral dark gray for readable text */
+  --secondary-bg: #6BBF8D;    /* Saturated fresh green for highlights */
+}
+
+.dark {
+  --primary-color: #5DD3C0;   /* Vibrant aqua-teal for main elements */
+  --primary-dark: #3BA497;    /* Darker teal for hover states */
+  --accent: #F4C76E;          /* Warm muted gold accent */
+  
+  --bg-color: #0F172A;        /* Deep navy-charcoal background */
+  --text-color: #E2E8F0;      /* Soft off-white text (less harsh than pure white) */
+  --secondary-bg: #1E293B;    /* Slightly lighter navy for cards/sections */
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
